@@ -16,6 +16,6 @@ but you may process thousands or millions of processes concurrently and end up o
 
 that's the same implementation as _1_ but using Project's Loom Virtual Threads implementation with fixed number of virtual threads.
 
-## 4. `SampleCustomVirtualThreads`
+## 5. `SampleVirtualThreadsWithSemaphore`
 
-tried something different customizing `ThreadPoolExecutor` but at the end of the day, it is the same as the _3_.  
+handles the maximum number of concurrent tasks executed in parallel by using a Semaphore to limit virtual threads.
