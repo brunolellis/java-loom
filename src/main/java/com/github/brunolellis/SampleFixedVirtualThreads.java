@@ -33,7 +33,8 @@ public class SampleFixedVirtualThreads {
         var delta = ChronoUnit.SECONDS.between(start, Instant.now());
 
         System.out.printf("Tasks completed in %d seconds!", delta);
-        // takes only 11 seconds
+        // Tasks completed in 11 seconds!
+
         // it is limited by 'threads' config
     }
 }

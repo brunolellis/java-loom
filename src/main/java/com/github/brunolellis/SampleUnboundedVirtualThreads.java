@@ -28,7 +28,9 @@ public class SampleUnboundedVirtualThreads {
         var delta = ChronoUnit.SECONDS.between(start, Instant.now());
 
         System.out.printf("Tasks completed in %d seconds!", delta);
-        // takes only 1 second!
+        // Tasks completed in 1 seconds!
+
+        // takes only 1 second!!!
         // but may overload an external system...
     }
 }

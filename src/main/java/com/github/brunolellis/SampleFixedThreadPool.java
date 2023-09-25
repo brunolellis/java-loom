@@ -29,6 +29,7 @@ public class SampleFixedThreadPool {
         var delta = ChronoUnit.SECONDS.between(start, Instant.now());
 
         System.out.printf("Tasks completed in %d seconds!", delta);
+        // Tasks completed in 5 seconds!
         // takes 5 seconds: 42 / 10 + 1
     }
 }
